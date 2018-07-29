@@ -30,6 +30,6 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  kittens.shift();
+  kittens - kittens.shift();
   return kittens;
 }
