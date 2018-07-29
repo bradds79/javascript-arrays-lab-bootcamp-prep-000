@@ -29,7 +29,7 @@ function prependKitten(name) {
   return [name, ...kittens];
 }
 
-function destructivelyRemoveFirstKitten() {
+function removeLastKitten() {
   kittens.shift();
   return kittens;
 }
