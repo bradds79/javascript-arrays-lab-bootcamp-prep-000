@@ -28,3 +28,8 @@ function appendKitten(name) {
 function prependKitten(name) {
   return [name, ...kittens];
 }
+
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
+  return kittens;
+}
